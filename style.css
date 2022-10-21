@@ -1,0 +1,42 @@
+body{
+    padding-top: 200px;
+    background-color: cadetblue;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width:900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.title{
+    width:400px;
+    margin: 0 auto 50px;
+    text-align: center;
+    padding:15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+}
+
+.title span{
+    color: crimson;
+    
+    font-size: 60px;
+}
+
+.column{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: darkorange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
